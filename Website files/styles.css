@@ -1,0 +1,216 @@
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#navBarList {
+    height: 15%;
+    margin: 0%;
+    top: 0%;
+    left: 0px;
+    right: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Oxygen', Sans-Serif;
+    font-weight: bold;
+    width: 50%;
+    margin-left: 0%;
+    margin-top: 1%;
+    margin-right: 0%;
+    min-width: 300px;
+    justify-content: right;
+}
+
+.navBarItem {
+    margin: 2.5%;
+    height: 40%;
+    justify-content: center center;
+    margin-top: 1.171%;
+    padding: 1%;
+    padding-right: 1%;
+    padding-left: 10px;
+    color: white;
+    border-radius: 12.5px;
+    font-size: 1.5em;
+}
+
+#fourthNavItem {
+    justify-content: center;
+}
+
+#navH {
+    margin: 2.5%;
+    height: 40%;
+    width: 40%;
+    justify-content: center center;
+    margin-top: 0.5%;
+    padding: 1%;
+    padding-right: 1%;
+    padding-left: 10px;
+    color: white;
+    border-radius: 12.5px;
+    font-size: 3em;
+    font-family: 'Oxygen', Sans-Serif;
+    cursor: default;
+    margin-right: 0%;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom right, orange,#6a5acd);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+    height: 700px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    cursor: default;
+}
+
+.mainPage {
+    right: 0%;
+    left: 0%;
+    font-size: 3.5em;
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 15%;
+    cursor: auto;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    cursor:default;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    font-family: 'Oxygen', Sans-Serif;
+    font-size: 3em;
+    color: #fff;
+    width: 90%;
+    padding-bottom: 1%;
+}
+
+p {
+    line-height: 1.8em;
+    font-family: 'Oxygen', Sans-Serif;
+    width: 80%;
+    color: white;
+    font-size: 1.6em;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+section {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    position: relative;
+    min-height: 80vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.landingContainer {
+    width: 50%;
+    min-width: 400px;
+    margin-right: 0px;
+    justify-content: right;
+}
+
+#html {
+    margin-top: 3%;
+    height: 80%;
+}
+
+#css {
+    width: 40%;
+    max-height: 700px;
+    height: 80%;
+    margin-top: 2%;
+    margin-right: 10%;
+    max-width: 500px;
+    margin-left: 0%;
+}
+
+#js {
+    height: 40%;
+    margin-top: 3%;
+}
+
+#sectionTwo {
+    justify-content: right;
+    text-align: right;
+    right: 0%;
+    margin-right: 0%;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+}
+
+footer {
+    background-color: black;
+    height: 30%;
+    width: 100%;
+    margin: 0px;
+    color: white;
+    font-family: 'Oxygen', Sans-Serif;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#footerDiv {
+    padding-top: 0.2%;
+    padding-left: 3%;
+    width: 75%;
+
+}
+
+#footH {
+    font-size: 2em;
+    width: 70%;
+}
+
+#footU {
+    font-size: 1.5em;
+}
+
+.footUL {
+    margin-bottom: 1%;
+}
+
+#button {
+    color: white;
+    margin-top: 5%;
+    font-size: 1.5em;
+    border: 2px solid white;
+    font-family: 'Oxygen', Sans-Serif;
+    height: 15%;
+    padding: 1%;
+    margin-right: 2%;
+    border-radius: 12.5px;
+    width: 9%;
+    justify-content: center;
+    padding-right: 0%;
+}
