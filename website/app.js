@@ -71,3 +71,16 @@ button.addEventListener('mouseleave', function(event) {
 button.addEventListener('click', function() {
     navBarList.scrollIntoView({behavior:'smooth', block:'center'});
 });
+
+
+const postData = aync (url = '', data = {}) => {
+    console.log(data);
+    const response = await fetch(url, {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+    });
+};
